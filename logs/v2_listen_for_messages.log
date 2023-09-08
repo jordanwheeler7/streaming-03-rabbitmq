@@ -1,0 +1,15 @@
+2023-09-07 20:55:42,104.v2_listen_for_messages.INFO ==================================================
+2023-09-07 20:55:42,104.v2_listen_for_messages.INFO Today is 2023-09-07 at 08:55 PM
+2023-09-07 20:55:42,104.v2_listen_for_messages.INFO Running on: nt Windows 10
+2023-09-07 20:55:42,104.v2_listen_for_messages.INFO Python version:  3.11.1
+2023-09-07 20:55:42,104.v2_listen_for_messages.INFO Python path: C:\Users\jorda\OneDrive\Desktop\Northwest Homework\1. Streaming Data\Module 3\streaming-03-rabbitmq\.venv
+2023-09-07 20:55:42,104.v2_listen_for_messages.INFO Working dir: C:\Users\jorda\OneDrive\Desktop\Northwest Homework\1. Streaming Data\Module 3\streaming-03-rabbitmq
+2023-09-07 20:55:42,104.v2_listen_for_messages.INFO ==================================================
+2023-09-07 20:55:42,113.v2_listen_for_messages.INFO  [*] Waiting for messages. To exit press CTRL+C
+2023-09-07 20:56:54,579.v2_listen_for_messages.INFO Received: Hello World!
+2023-09-07 20:57:27,997.v2_listen_for_messages.INFO Received: We have found the error!
+2023-09-07 20:57:55,934.v2_listen_for_messages.INFO Received: We are back in business now that it has been solved!
+2023-09-07 20:58:30,082.v2_listen_for_messages.INFO Received: This was not as difficult as it seemed like it was going to be!
+2023-09-07 20:59:02,168.v2_listen_for_messages.INFO Received: We are excited at the prospect of using this in the future!
+2023-09-07 20:59:52,163.v2_listen_for_messages.WARNING User interrupted the listening process.
+2023-09-07 20:59:52,163.v2_listen_for_messages.INFO Closing connection. Goodbye.

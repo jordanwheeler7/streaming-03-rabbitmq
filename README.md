@@ -1,5 +1,15 @@
 # streaming-03-rabbitmq
 
+- Jordan Wheeler
+- CSIS 44671: Streaming Data
+- 7 September 2023
+- Module 3: RabbitMQ
+
+## Introduction
+
+- This project is a simple demonstration of RabbitMQ, a message broker, that enables multiple processes to communicate reliably through an intermediary.
+- In this project we look at decoupling shared resources and adding tools to help ensure messages are processed in order and reliably
+
 > Get started with RabbitMQ, a message broker, that enables multiple processes to communicate reliably through an intermediary.
 
 This project requires some free code - beyond that available in the Python Standard Library. To avoid messing up our local default Python installation, and any other Python projects we may have, we  create a local virtual environment to install and use these libraries.
@@ -113,12 +123,17 @@ As long as the process is running, we cannot use this terminal for other command
 Sending the same message each time is kind of boring. This time:
 
 1. Where is the message defined? How can you change it?
+    - The message is defined in the `main` function. It can be changed by changing the string that is passed to the `send_message` function.
 1. Modify emit_message.py to emit a different message. 
 1. Execute the updated emit_message.py. 
 1. Watch what happens in the listening terminal.
 
 Repeat this process several times - emit at least 4 different messages.
 Don't worry - it's just code. We can always revert back (try the 'undo' command in VS Code) to a version that works. You can't hurt anything.
+
+![sending messages](./Hello_World_2_Terminals.png)
+![sending messages2](./v1_send_receive_2_terminal.png)    
+
 
 ## Task 9. Save Time & Effort: Don't Repeat Yourself
 
@@ -148,16 +163,21 @@ Each of the version 2 programs include an error as well.
 1. Include your name and the date.
 1. Imports always go at the top, just after the file docstring.
 1. Imports should be one per line - why?
+    - Imports should be one per line to make it easier to read and understand what is being imported.
 1. Then, define your functions.
 1. Functions are reusable logic blocks.
 1. Everything the function needs comes in through the arguments.
 1. A function may - or may not - return a value. 
 1. When we open a connection, we should close the connection. 
 1. Which of the 4 files will always close() the connection?
-1. Search GitHub for if __name__ == "__main__":
+    - The `emit_message.py` file will always close the connection.
+1. Search GitHub for if __name__ == "__main__"
 1. How many hits did you get? 
+    - 1,000+
 1. Learn and understand this common Python idiom.
+    - The `__name__ == "__main__"` is used to check if the code is being run directly or being imported. If the code is being run directly, then the code under the `if` statement will be executed. If the code is being imported, then the code under the `if` statement will not be executed.
 
+![sending multiple messages with v2](./v2_send_receive_2_terminal.png)  
 ## Reference
 
 - [RabbitMQ Tutorial - Hello, World!](https://www.rabbitmq.com/tutorials/tutorial-one-python.html)

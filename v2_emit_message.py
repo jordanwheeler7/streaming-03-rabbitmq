@@ -1,5 +1,9 @@
 """
 
+Jordan Wheeler
+7 September 2023
+Module 3
+    
 Message sender / emitter 
 
 Description:
@@ -21,6 +25,7 @@ import pika
 from util_logger import setup_logger
 
 logger, logname = setup_logger(__file__)
+
 
 # ---------------------------------------------------------------------------
 # Define program functions (bits of reusable code)
@@ -66,4 +71,4 @@ def send_message(host: str, queue_name: str, message: str):
 # If this is the script we are running, then call some functions and execute code!
 # ---------------------------------------------------------------------------
 if __name__ == "__main__":
-    send_message("llllocalhost", "hello", "Hello World!")
+    send_message(f"localhost", "hello", "We are excited at the prospect of using this in the future!")
