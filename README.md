@@ -4,6 +4,7 @@
 - CSIS 44671: Streaming Data
 - 7 September 2023
 - Module 3: RabbitMQ
+- [Repo Page](https://jordanwheeler7.github.io/streaming-03-rabbitmq/)
 
 ## Introduction
 
