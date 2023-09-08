@@ -112,6 +112,7 @@ We can execute additional commands in the terminal as soon as it finishes.
 
 You'll need to fix an error in the program to get it to run.
 Once it runs successfully, will it terminate on its own? How do you know? 
+- The program will not terminate on its own. We know this because the program is running in a while loop.
 As long as the process is running, we cannot use this terminal for other commands. 
 
 ## Task 8. Open a New Terminal / Emit More Messages
